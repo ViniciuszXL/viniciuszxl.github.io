@@ -247,6 +247,8 @@ img {
 /* ADSENSE */
 .adsense {
 	width: 95%;
+	height: 50px;
+	padding: 0;
 	margin: 0 2.5%;
 	background: #efefef;
 	border-radius: 5px;
@@ -272,6 +274,10 @@ img {
 		margin-right: 5%;
 		margin-left: 5%;
 	}
+	
+	.adsense {
+		height: 75px;
+	}
 
 	.logo img {
 		width: 70%;
@@ -287,6 +293,10 @@ img {
 		width: 80%;
 		margin-right: 10%;
 		margin-left: 10%;
+	}
+	
+	.adsense {
+		height: 100px;
 	}
 
 	.logo {
