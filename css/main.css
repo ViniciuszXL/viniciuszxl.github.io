@@ -248,11 +248,8 @@ img {
 .adsense {
 	padding: 0;
 	width: 95%;
-	height: 55px;
 	margin: 4% 2.5%;
 	margin-top: 0;
-	border-radius: 5px;
-	background: #efefef;
 }
 
 /* FOOTER */
@@ -274,10 +271,6 @@ img {
 		margin-right: 5%;
 		margin-left: 5%;
 	}
-	
-	.adsense {
-		height: 75px;
-	}
 
 	.logo img {
 		width: 70%;
@@ -293,10 +286,6 @@ img {
 		width: 80%;
 		margin-right: 10%;
 		margin-left: 10%;
-	}
-	
-	.adsense {
-		height: 100px;
 	}
 
 	.logo {
