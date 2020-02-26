@@ -334,7 +334,7 @@ img {
 
 /* MEDIA SCREEN */
 @media screen and (min-width: 500px) {
-	.index, .contatos, .projetos, .adsense {
+	.index, .contatos, .projetos, .adsense, .templates {
 		width: 90%;
 		margin-right: 5%;
 		margin-left: 5%;
@@ -353,17 +353,17 @@ img {
 		font-size: 30px;
 	}
 	
-	.projeto h2 {
+	.projeto h2, .templates h2 {
 		font-size: 13px;
 	}
 	
-	.projeto p {
+	.projeto p, .templates p {
 		font-size: 15px;
 	}
 }
 
 @media screen and (min-width: 620px) {
-	.index, .contatos, .projetos, .adsense {
+	.index, .contatos, .projetos, .adsense, .templates {
 		width: 80%;
 		margin-right: 10%;
 		margin-left: 10%;
@@ -393,18 +393,18 @@ img {
 		font-size: 15px;
 	}
 	
-	.projeto h1 {
+	.projeto h1, .templates h1 {
 		font-size: 24px;
 		padding: 2% 4%;
 		padding-bottom: 0;
 	}
 	
-	.projeto h2 {
+	.projeto h2, .templates h2 {
 		font-size: 13px;
 		margin: 0 0 1% 0!important;
 	}
 	
-	.projeto p {
+	.projeto p, .templates p {
 		font-size: 16px;
 	}
 	
@@ -422,7 +422,7 @@ img {
 		margin-bottom: 1%;
 	}
 
-	.index, .contatos, .projetos, .adsense {
+	.index, .contatos, .projetos, .adsense, .templates {
 		width: 60%;
 		float: left;
 		margin: 1% 20%;
