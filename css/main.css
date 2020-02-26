@@ -44,7 +44,6 @@ img {
 
 /* MODAL */
 .modal-body img {
-	width: 60%;
 	margin-bottom: 4%;
 	border-radius: 10px;
 }
@@ -276,8 +275,21 @@ img {
 		width: 70%;
 	}
 	
-	.modal-body img {
-		width: 45%;
+	.modal-body p {
+		font-size: 16px;
+		margin: 0 4%!important;
+	}
+	
+	.modal-body h1 {
+		font-size: 30px;
+	}
+	
+	.projeto h2 {
+		font-size: 13px;
+	}
+	
+	.projeto p {
+		font-size: 15px;
 	}
 }
 
@@ -333,10 +345,6 @@ img {
 	
 	.projeto-title {
 		padding: 1.5% 4%;
-	}
-	
-	.modal-body img {
-		width: 35%;
 	}
 }
 
