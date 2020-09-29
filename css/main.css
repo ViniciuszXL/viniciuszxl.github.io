@@ -14,24 +14,15 @@ html {
 }
 
 body {
-    background-color: #efefef;
+    background-color: white;
 	font-family: Poppins Regular!important;
 	color: black!important;
 	width: 100%;
 	height: 100%;
-	background: url(../img/other-background.jpg) center center/100% 100% no-repeat fixed;
 }
 
 a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
+	text-decoration: none;
 }
 
 /* CONTEUDO */
@@ -42,420 +33,191 @@ img {
     text-align: center;
 }
 
-/* MODAL */
-.modal-body img {
-	margin-bottom: 4%;
-	border-radius: 10px;
-}
-
-.modal-body p {
-	margin: 2% 0!important;
-	text-align: center;
+/* INICIO */
+.inicio {
+	width: 100%;
+	height: 100%;
+	background: url(../img/background.png) center center no-repeat fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* LOGO */
 .logo img {
-	width: 80%;
+	width: 70%;
+	margin: 2% 0;
 }
 
-.logo h1 {
-    font-size: 18px;
-	margin: 1.5% 0!important;
-}
-
-/* INDEX */
-.index {
-	background: #efefef;
-	width: 95%;
-	padding: 0;
-	margin: 0 2.5%;
-	margin-top: 2.5%;
-	border-radius: 5px;
-}
-
-/* MENU */
-.menu {
-	padding: 0;
-	border-radius: 5px 5px 0 0;
-	background: #21d4fd;
-	border-bottom: 1px solid blue;
-}
-
-.menu ul li {
-	display: block;
-	float: left;
-	padding: 2%;
-}
-
-.menu ul li:hover a {
-	transition: all .6s;
-	color: green;
-}
-
-.menu ul li a {
-	color: black;
-	font-size: 18px;
+.logo p {
+	color:white;
+	font-size: 115%;
+	margin: 0;
 }
 
 /* SOBRE */
-.sobre-titulo {
-	padding: 1.5%;
-	border-bottom: 1px solid blue;
+.sobre-first {
+	padding-bottom: 0;
 }
 
-.sobre-titulo h1 {
-	margin: 0!important;
-	font-size: 27.5px!important;
+.sobre a {
+	text-decoration: none;
+	color: black;
+	margin: 0 4%;
 }
 
-.sobre {
-	padding: 0;
+.sobre i {
+	font-size: 40px;
 }
 
-.sobre img {
-	width: 30%;
-	border-radius: 100%;
+.sobre-imagem {
+	padding: 2.5% 0!important;
+}
+
+.sobre-imagem img {
+	width: 100%;
+	border-radius: 1.5%;
+	box-shadow: 0 0 5px grey;
+}
+
+.sobre-second h1 {
+	font-size: 150%;
+	margin-bottom: 3%;
+}
+
+.sobre-second p {
+	font-size: 100%;
+	margin: 4.5% 0;
+}
+
+/* LINGUAGENS */
+.linguagens {
+	box-shadow: 0 0 8px grey;
+}
+
+.linguagem-second, .linguagem-first {
+	padding: 0 4%;
+}
+
+.linguagem-second p, .linguagem-first p {
+	margin: 4% 0;
+}
+
+.linguagem-first img {
+	width: 80%;
+}
+
+.linguagem-second img {
+	width: 70%;
+	margin: 2% 0;
+}
+
+.linguagem-second img:last-child {
+	margin-bottom: 0;
+}
+
+/* SITES */
+.sites h1 {
+	font-size: 200%;
 	margin: 3% 0;
 }
 
-.sobre h1 {
-	font-size: 20px;
-	margin: 1% 0!important;
+.sites-content img {
+	width: 80%;
 }
 
-.sobre h1:last-child {
-	font-size: 18px;
-}
-
-.sobre-text {
-	padding: 0 6%;
-	margin-bottom: 1%;
-}
-
-.sobre-text p {
-	margin: 4% 0;
-	font-size: 15px;
-}
-
-/* CONTATOS */
-.contatos {
-	background: #efefef;
-	width: 95%;
-	margin: 4% 2.5%;
-	border-radius: 5px;
-	padding: 0;
-}
-
-.contato-title {
-	padding: 0;
-	border-bottom: 1px solid blue;
-	font-size: 15px;
-}
-
-.contato-title h1 {
-	font-size: 30px;
-	margin: 2% 0!important;
-}
-
-/* CONTATO */
-.contato {
-	float: left;
-	width: 25%;
-	margin: 2% 0 0 0;
-	padding-bottom: 0;
-}
-
-.contato i {
-	font-size: 30px!important;
-}
-
-.contato a {
+.sites-content h1, .sites-content a {
 	color: black;
-	font-size: 15px;
-}
-
-/* TEMPLATES */
-.templates {
-	padding: 0;
-	width: 95%;
-	margin: 4% 2.5%;
-	margin-top: 0;
-	border-radius: 5px;
-	background: #efefef;
-}
-
-.template:last-child {
-	border-radius: 0 0 5px 5px;
-	border: 0;
-}
-
-.template-title {
-	border-bottom: 1px solid blue;
-}
-
-.template-title h1 {
-	font-size: 28px!important;
-	text-align: center!important;
-	margin: 0!important;
-}
-
-.template {
-	background: #efefef;
-	padding: 0;
-	border-bottom: 1.25px solid black;
-}
-
-.template h1 {
-	padding: 3% 4%;
-	font-weight: 600;
-	font-size: 22.5px;
-	text-align: left;
-	margin: 0!important;
-	padding-bottom: 0;
-}
-
-.template h2 {
-	padding: 0 4%;
-	font-size: 12px;
-	text-align: left;
-	margin: 1% 0 2% 0!important;
-	color: gray;
-}
-
-.template p {
-	padding: 0 4%;
-	text-align: left;
-	font-size: 12.5px;
-	color: black;
-	margin: 0!important;
-}
-
-.template-btn {
-	padding: 0 4%;
-	margin: 2% 0;
-	text-align: left;
-}
-
-.template-btn a {
-	font-size: 15px;
-	color: blue;
-	text-decoration: none;
-	text-transform: none;
-}
-
-/* PROJETOS TITLE */
-.projetos {
-	padding: 0;
-	width: 95%;
-	margin: 4% 2.5%;
-	margin-top: 0;
-	border-radius: 5px;
-	background: #efefef;
-}
-
-.projeto:last-child {
-	border-radius: 0 0 5px 5px;
-	border: 0;
-}
-
-.projeto-title {
-	border-bottom: 1px solid blue;
-}
-
-.projeto-title h1 {
-	font-size: 30px!important;
-	text-align: center!important;
-	margin: 0!important;
-}
-
-.projeto {
-	background: #efefef;
-	padding: 0;
-	border-bottom: 1.25px solid black;
-}
-
-.projeto h1 {
-	padding: 3% 4%;
-	font-weight: 600;
-	font-size: 22.5px;
-	text-align: left;
-	margin: 0!important;
-	padding-bottom: 0;
-}
-
-.projeto h2 {
-	padding: 0 4%;
-	font-size: 12px;
-	text-align: left;
-	margin: 1% 0 2% 0!important;
-	color: gray;
-}
-
-.projeto p {
-	padding: 0 4%;
-	text-align: left;
-	font-size: 12.5px;
-	color: black;
-	margin: 0!important;
-}
-
-.projeto-btn {
-	padding: 0 4%;
-	margin: 2% 0;
-	text-align: left;
-}
-
-.projeto-btn a {
-	font-size: 15px;
-	color: blue;
-	text-decoration: none;
-	text-transform: none;
-}
-
-/* ADSENSE */
-.adsense {
-	padding: 0;
-	width: 95%;
-	margin: 4% 2.5%;
-	margin-top: 0;
+	border: none;
 }
 
 /* FOOTER */
 .footer {
-	background: rgba(255, 255, 255, .2);
-	padding: 1% 0;
+	width: 100%;
+	background: url(../img/background.png) center center no-repeat fixed;
+}
+
+.footer h1 {
+	margin: 2% 0;
 	color: white;
-	margin-top: 1%;
+	font-size: 110%;
 }
 
-.footer p {
-	margin: 0;
-}
-
-/* MEDIA SCREEN */
 @media screen and (min-width: 500px) {
-	.index, .contatos, .projetos, .adsense, .templates {
-		width: 90%;
-		margin-right: 5%;
-		margin-left: 5%;
-	}
-
 	.logo img {
-		width: 70%;
-	}
-	
-	.modal-body p {
-		font-size: 16px;
-		margin: 0 4%!important;
-	}
-	
-	.modal-body h1 {
-		font-size: 30px;
-	}
-	
-	.projeto h2, .templates h2 {
-		font-size: 13px;
-	}
-	
-	.projeto p, .templates p {
-		font-size: 15px;
-	}
-}
-
-@media screen and (min-width: 620px) {
-	.index, .contatos, .projetos, .adsense, .templates {
-		width: 80%;
-		margin-right: 10%;
-		margin-left: 10%;
-	}
-
-	.logo {
-		padding-bottom: 0;
-	}
-	
-	.contato {
-		padding: 1%;
-	}
-
-	.logo img {
-		width: 45%;
-	}
-
-	.sobre img {
-		width: 28%;
-	}
-	
-	.sobre-text {
-		padding: 0 10%;
-	}
-	
-	.sobre-text p {
-		font-size: 15px;
-	}
-	
-	.projeto h1, .templates h1 {
-		font-size: 24px;
-		padding: 2% 4%;
-		padding-bottom: 0;
-	}
-	
-	.projeto h2, .templates h2 {
-		font-size: 13px;
-		margin: 0 0 1% 0!important;
-	}
-	
-	.projeto p, .templates p {
-		font-size: 16px;
-	}
-	
-	.projeto-btn {
-		margin: 1% 0 2% 0;
-	}
-	
-	.projeto-title {
-		padding: 1.5% 4%;
-	}
-}
-
-@media screen and (min-width: 950px) {
-	.logo {
-		margin-bottom: 1%;
-	}
-
-	.index, .contatos, .projetos, .adsense, .templates {
+		margin: 0;
 		width: 60%;
-		float: left;
-		margin: 1% 20%;
 	}
 
-	.sobre img {
-		width: 20%;
-	}
-	
-	.sobre h1 {
-		font-size: 25px;
+	.logo p {
+		font-size: 120%;
 	}
 
-	.sobre-titulo h1 {
-		font-size: 30px!important;
+	.sobre-imagem img {
+		width: 80%;
 	}
 
-	.contato-title h1 {
-		font-size: 30px!important;
-		margin: 2% 0!important;
+	.linguagem-first img, .linguagem-second img {
+		width: 60%;
 	}
+}
 
+@media screen and (min-width: 900px) {
 	.logo img {
-		width: 25%;
+		width: 30%;
 	}
 
-	.logo h1 {
-		margin: 0!important;
-		margin-top: .5%!important;
+	.sobre-first, .linguagem-second {
+		width: 50%;
+		float: left;
 	}
 
-	.sobre-text p {
-		margin: 2% 6%;
-		text-align: center;
+	.sobre-second, .linguagem-first {
+		width: 50%;
+		float: right;
 	}
+
+	.linguagem-first img {
+		width: 50%;
+	}
+
+	.linguagem-second img {
+		width: 40%;
+		margin: 2%;
+	}
+
+	.sites {
+		padding: 2% 3%;
+	}
+
+	.sites h1 {
+		margin: 1% 0;
+	}
+
+	.sites-content {
+		float: left;
+		width: 30%;
+		padding: 2%;
+	}
+
+	.telegram-logo {
+		width: 50%!important;
+	}
+
+	.sites-content img {
+		width: 40%!important;
+	}
+
+	.sites-content h1 {
+		margin: 0;
+	}
+
+	.footer {
+		padding: 0;
+	}
+
+	.footer h1 {
+		margin: 1% 0;
+	}
+
 }
