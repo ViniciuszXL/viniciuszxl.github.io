@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 
 // Pages //
-import Home from './pages/home/home'
+import Home from './pages/home'
 
 class App extends Component {
     

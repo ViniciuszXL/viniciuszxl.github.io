@@ -1,0 +1,25 @@
+.homePage {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    background: url('../../img/background.png') center center/100% 100% no-repeat fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo img {
+        width: 65%;
+        margin-bottom: 2%;
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Marcus Vinicius",
+    "year-age": 2001,
+    "cityFrom": "Manaus-AM",
+    "description": "Olá Mundo!",
+    "logo": {
+        "enable": true,
+        "source": "../../img/icon/eu.jpg"
+    }
+}
