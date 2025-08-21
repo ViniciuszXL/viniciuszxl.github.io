@@ -3,3 +3,5 @@
 https://cloud7-l2-user9874524101-2.s27-usa-cloudfront-net.online/secret_key/c95a7d40a1fbc13e09b61107b88bfba3.m3u8
 #EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://embedtv.digital/assets/images/espn.png" group-title="ESPORTE",ESPN
 https://cloud7-l2-user9874524101-2.s27-usa-cloudfront-net.online/secret_key/44effc93aa64b5cd88ed4418c4a2a207.m3u8
+#EXTINF:-1 tvg-id="Record.br" tvg-name="RecordTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/0/0e/Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png",RecordTV
+https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
